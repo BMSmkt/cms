@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/p000128/public_html/cms/
+    - /bin/cp -R arquivos_git $DEPLOYPATH
