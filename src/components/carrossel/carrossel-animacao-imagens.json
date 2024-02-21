@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_reutilizaveis_carrossel_animacao_imagens",
+  "info": {
+    "displayName": "Imagens animação",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "imagens": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

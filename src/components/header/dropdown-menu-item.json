@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_header_dropdown_menu_items",
+  "info": {
+    "displayName": "Dropdown Menu Item"
+  },
+  "options": {},
+  "attributes": {
+    "item_label": {
+      "type": "string"
+    },
+    "item_link": {
+      "type": "string"
+    }
+  }
+}

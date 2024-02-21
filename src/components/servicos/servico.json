@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_servicos_servicos",
+  "info": {
+    "displayName": "Serviço",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Nome": {
+      "type": "string"
+    },
+    "icone": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Descricao": {
+      "type": "text"
+    }
+  }
+}

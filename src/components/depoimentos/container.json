@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_depoimentos_containers",
+  "info": {
+    "displayName": "Container"
+  },
+  "options": {},
+  "attributes": {
+    "titulo_da_area": {
+      "type": "string"
+    },
+    "depoimento": {
+      "displayName": "Depoimento",
+      "type": "component",
+      "repeatable": true,
+      "component": "depoimentos.depoimento"
+    }
+  }
+}

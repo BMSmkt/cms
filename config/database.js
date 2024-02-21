@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = ({ env }) => {
-  const client = env('DATABASE_CLIENT', 'mysql');
+  const client = env('DATABASE_CLIENT', 'sqlite');
 
   const connections = {
     mysql: {
@@ -9,9 +9,9 @@ module.exports = ({ env }) => {
         connectionString: env('DATABASE_URL'),
         host: env('DATABASE_HOST', 'localhost'),
         port: env.int('DATABASE_PORT', 3306),
-        database: env('DATABASE_NAME', 'p000128_cms'),
-        user: env('DATABASE_USERNAME', 'p000128_strap'),
-        password: env('DATABASE_PASSWORD', 'IPCJ]i-PfaLZ'),
+        database: env('DATABASE_NAME', 'dev_database'),
+        user: env('DATABASE_USERNAME', ''),
+        password: env('DATABASE_PASSWORD', ''),
         ssl: env.bool('DATABASE_SSL', false) && {
           key: env('DATABASE_SSL_KEY', undefined),
           cert: env('DATABASE_SSL_CERT', undefined),

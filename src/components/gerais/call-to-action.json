@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_gerais_call_to_actions",
+  "info": {
+    "displayName": "Call to Action"
+  },
+  "options": {},
+  "attributes": {
+    "botao": {
+      "displayName": "Botão",
+      "type": "component",
+      "repeatable": true,
+      "component": "gerais.botao"
+    }
+  }
+}

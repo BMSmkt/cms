@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_ebooks_containers",
+  "info": {
+    "displayName": "Container"
+  },
+  "options": {},
+  "attributes": {
+    "Livro": {
+      "displayName": "Livro",
+      "type": "component",
+      "repeatable": true,
+      "component": "ebooks.livro"
+    },
+    "Titulo_da_area": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_reutilizaveis_carrossels",
+  "info": {
+    "displayName": "Container",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "carrossel_animacao": {
+      "displayName": "Carrossel Animação Imagens",
+      "type": "component",
+      "repeatable": true,
+      "component": "carrossel.carrossel-animacao-imagens"
+    },
+    "carrossel_texto": {
+      "type": "component",
+      "repeatable": true,
+      "component": "carrossel.texto"
+    }
+  }
+}

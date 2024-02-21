@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_gerais_botaos",
+  "info": {
+    "displayName": "Botão",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Texto": {
+      "type": "string"
+    }
+  }
+}

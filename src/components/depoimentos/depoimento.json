@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_depoimentos_depoimentos",
+  "info": {
+    "displayName": "Depoimento"
+  },
+  "options": {},
+  "attributes": {
+    "Conteudo": {
+      "type": "text"
+    },
+    "Identificacao": {
+      "type": "string"
+    },
+    "logo_empresa": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

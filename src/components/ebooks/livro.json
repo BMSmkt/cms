@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_ebooks_livros",
+  "info": {
+    "displayName": "Livro"
+  },
+  "options": {},
+  "attributes": {
+    "Nome": {
+      "type": "string"
+    },
+    "Hubspot_Form_Id": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_servicos_containers",
+  "info": {
+    "displayName": "Container",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "servico": {
+      "displayName": "Serviço",
+      "type": "component",
+      "repeatable": true,
+      "component": "servicos.servico"
+    },
+    "titulo_da_area": {
+      "type": "string"
+    }
+  }
+}

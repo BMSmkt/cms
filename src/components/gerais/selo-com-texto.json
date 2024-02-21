@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_gerais_selo_com_textos",
+  "info": {
+    "displayName": "Selo com texto"
+  },
+  "options": {},
+  "attributes": {
+    "Texto": {
+      "type": "string"
+    },
+    "Selo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

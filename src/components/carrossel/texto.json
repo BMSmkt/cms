@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_carrossel_textos",
+  "info": {
+    "displayName": "Texto"
+  },
+  "options": {},
+  "attributes": {
+    "texto": {
+      "type": "string"
+    }
+  }
+}
